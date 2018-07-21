@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Présentation UIkit</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.min.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <div>
+                    <div class="uk-width-auto uk-tile uk-tile-secondary">
+                        <h1 class="uk-h4">UIkit</h1>
+                        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                        <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+                    </div>
+                </div>
+                <img src="/home/mickael/code/reveal.js/img/LaravelLogo.png" alt="">
+            </section>
+
+            <section data-background="img/bg_page2.jpeg">
+                <h1> Mais qu'est ce c'est ce truc ?</h1>
+
+                <p>
+                    UIkit est un framwork de la même famille que Bootstrap. En effet, il vous met à disposition des outils visant à simplifier la réalisation de templates tout en permettant une plus grande liberté que sont homologue qui nous servira de référence tout au
+                    long de notre présentation.
+                </p>
+            </section>
+            <section>
+                <h3>1er exemple, la "grille"</h3>
+                <p>Contrairement a Bootstrap, on a pas à proprement parler de grille, mais plus de fantaisies possibles grâce aux fractions (et oui, des maths...).</p>
+                <div uk-grid>
+
+                    <div class="uk-width-expand@xl uk-child-width-1-3@l uk-grid-small uk-grid-match" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">Default</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-primary uk-card-body">
+                                <h3 class="uk-card-title">Primary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-secondary uk-card-body">
+                                <h3 class="uk-card-title">Secondary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section>
+                <h4>Voici un exemple réalisé par nos soins</h4>
+                <img src="img/Capture d’écran de 2018-07-21 10-28-58.png" heigh="100" widht="200" alt="ex">
+            </section>
+
+            <section>
+                <h4>Un framework ergonomique</h4>
+                <p>
+                    L'exemple de réalisation présenté précedement à été réalisé qu'avec du HTML. c'est à dire que UIkit intégre des fonctionnalités CSS abouties de base contrairement à Bootstrap
+                </p>
+            </section>
+            <section>
+                <h3>2ème exemple, l'importaion du SASS en HTML</h3>
+                <img src="img/Capture d’écran de 2018-07-21 11-51-28.png" alt="">
+            </section>
+            <section>
+                <h3>3ème exemple, la fonction "shied"</h3>
+                <p>
+                    Nous ne présenterons pas ici toutes les fonctionnalités de UIkit, mais cette fonctionnalité appliquée à un parent permet de "verrouiller" une régle de style à ses enfants. Très utile concernant des couleurs ou tailles de polices. Toutes ses fonctionnalités
+                    permettent encore une fois d'alléger notre fichier CSS en l'intégrant dans votre HTML.
+                </p>
+            </section>
+            <section>
+                <h4>Un framework plus orienté sur la créativité</h4>
+                <p>
+                    Si du sang de graphiste coule en vous, c'est UIkit qu'il vous faut. Grâce à ses options de personalisation très poussées, vous obtiendrez un site unique. Il se démarque de ses "concurrents" par des outils visuels plus performants pour les animations et
+                    vidéos notament.
+                </p>
+            </section>
+            <section>
+                <h4>Exemple d'animations de texte proposées</h4>
+                <img src="img/Capture d’écran de 2018-07-21 10-49-18.png" alt="">
+            </section>
+            <section>
+                <h3>Alors pourquoi de pas l'utiliser ?</h3>
+                <p>
+                    Pas si simple de sauter le pas pour un nouveau framework. Il est vrai que lorqu'on maîtrise bien Bootstrap, on hésite à changer pour un autre. Il est vrai que BS bénéficie d'une communauté importante vu que 80% des sites sont développés avec.
+                </p>
+            </section>
+            <section>
+                <h4>Parts de marché de UIkit</h4>
+                <img src="img/Capture d’écran de 2018-07-21 10-36-45.png" alt="">
+            </section>
+            <section>
+                <h3>Uikit vs Bootstrap, points positifs</h3>
+
+                <ul>
+                    <li>plus grande librairie d'effets (texte, images, transitions)</li>
+                    <li>plus de liberté de mise en page grâce aux colonnes fractionnées,</li>
+                    <li>plus de personnalisation des modules du framework,</li>
+                    <li>CSS allégé grâce aux fonctionnalités intégrées.</li>
+                    <li>permet aux "graphistes" de s'exprimer pleinement.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Uikit vs Bootstrap, points positifs</h3>
+                <ul>
+                    <li>plus grande compléxité de mise en oeuvre,</li>
+                    <li>communauté plus restreinte donc moins d'assistance sur les forums.</li>
+                </ul>
+            </section>
+            <section>
+                <h1>Qu'attendez-vous pour adopter UIkit ??</h1>
+            </section>
+        </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="node_modules/uikit/dist/js/uikit.min.js"></script>
+    <script src="node_modules/uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            dependencies: [{
+                src: 'plugin/markdown/marked.js'
+            }, {
+                src: 'plugin/markdown/markdown.js'
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+    </script>
+</body>
+
+</html>
